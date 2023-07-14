@@ -23,7 +23,7 @@ export const Navbar = () => {
           aria-label='Toggle navigation'
           onClick={handleNavCollapse}
         >
-          <span className='navbar-toggler-icon'></span>
+          <span className='navbar-toggler-icon' />
         </button>
 
         <div className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`} id='navbarText'>
